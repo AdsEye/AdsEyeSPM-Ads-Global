@@ -17,9 +17,6 @@ let package = Package(
             dependencies: [
                 .target(name: "PAGAdSDK")
             ],
-            resources: [
-                .copy("Resources/PAGAdSDK.bundle")
-            ],
             linkerSettings: [
                 .linkedFramework("AVFoundation"),
                 .linkedFramework("Accelerate"),
