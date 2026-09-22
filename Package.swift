@@ -15,8 +15,7 @@ let package = Package(
         .target(
             name: "Ads_GlobalWrapper",
             dependencies: [
-                .target(name: "PAGAdSDK"),
-                .target(name: "TikTokBusinessSDK")
+                .target(name: "PAGAdSDK")
             ],
             resources: [
                 .copy("Resources/PAGAdSDK.bundle")
@@ -55,11 +54,6 @@ let package = Package(
     name: "PAGAdSDK",
     url: "https://github.com/AdsEye/AdsEyeSPM-Ads-Global/releases/download/8.1.0-pod.6/PAGAdSDK-8.1.0.6.zip",
     checksum: "091c2baabac1381a8b9c250f0ab0f34e95298e7d27e193bcb271b16ed1fdf384"
-),
-        .binaryTarget(
-    name: "TikTokBusinessSDK",
-    url: "https://github.com/AdsEye/AdsEyeSPM-Ads-Global/releases/download/8.1.0-pod.6/TikTokBusinessSDK-8.1.0.6.zip",
-    checksum: "0d8a0349112cdecc2bf8c360ab41a57858799d302f8bb3b1156f0a70862bb6de"
 )
     ]
 )

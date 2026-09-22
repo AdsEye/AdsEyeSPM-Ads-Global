@@ -33,11 +33,17 @@ targets: [
 ]
 ```
 
+## TikTokBusinessSDK 兼容性
+
+`AdsGlobalPackage` 只包含 `PAGAdSDK`，不会携带或强制依赖 `TikTokBusinessSDK`，可以与媒体已有的 TikTokBusinessSDK 共存。
+
+媒体没有自行接入 TikTokBusinessSDK 时，可以额外添加：
+
+`https://github.com/AdsEye/AdsEyeSPM-Ads-Global-TikTokBusinessSDK.git`
 
 ## Binary targets
 
 - `PAGAdSDK`
-- `TikTokBusinessSDK`
 
 ## 许可证
 
